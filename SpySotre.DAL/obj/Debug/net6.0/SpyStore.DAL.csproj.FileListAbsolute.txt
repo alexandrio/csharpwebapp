@@ -1,0 +1,17 @@
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/bin/Debug/net6.0/SpySotre.DAL.deps.json
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/bin/Debug/net6.0/SpySotre.DAL.runtimeconfig.json
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/bin/Debug/net6.0/SpySotre.DAL.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/bin/Debug/net6.0/SpySotre.DAL.pdb
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/bin/Debug/net6.0/SpyStore.Models.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/bin/Debug/net6.0/SpyStore.Models.pdb
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.csproj.AssemblyReference.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.AssemblyInfoInputs.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.AssemblyInfo.cs
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.csproj.CoreCompileInputs.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.csproj.CopyComplete
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpySotre.DAL.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/refint/SpySotre.DAL.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpySotre.DAL.pdb
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/SpyStore.DAL.genruntimeconfig.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpySotre.DAL/obj/Debug/net6.0/ref/SpySotre.DAL.dll

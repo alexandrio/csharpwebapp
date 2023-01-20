@@ -1,0 +1,12 @@
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/bin/Debug/net6.0/SpyStore.Models.deps.json
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/bin/Debug/net6.0/SpyStore.Models.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/bin/Debug/net6.0/SpyStore.Models.pdb
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.csproj.AssemblyReference.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.AssemblyInfoInputs.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.AssemblyInfo.cs
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.csproj.CoreCompileInputs.cache
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/refint/SpyStore.Models.dll
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.pdb
+/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/ref/SpyStore.Models.dll

@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.MVC/SpyStore.MVC.csproj": {}
+  },
+  "projects": {
+    "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj",
+        "projectName": "SpyStore.Models",
+        "projectPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj",
+        "packagesPath": "/Users/pedrozalejandro/.nuget/packages/",
+        "outputPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/pedrozalejandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.MVC/SpyStore.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.MVC/SpyStore.MVC.csproj",
+        "projectName": "SpyStore.MVC",
+        "projectPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.MVC/SpyStore.MVC.csproj",
+        "packagesPath": "/Users/pedrozalejandro/.nuget/packages/",
+        "outputPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/pedrozalejandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj": {
+                "projectPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
