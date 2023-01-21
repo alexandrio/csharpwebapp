@@ -14,7 +14,7 @@ namespace SpyStore.DAL.EfStructures
         public StoreContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<StoreContext>();
-            var connectionString = @"Server=.,1401;Database=SpyStore22;User ID=sa;Password=Sistemas2018;MultipleActiveResultSets=true;TrustServerCertificate=true";
+            var connectionString = @"Server=WINMINI,1433;Database=SpyStore22;User ID=sa;Password=Sistemas2018;MultipleActiveResultSets=true;TrustServerCertificate=true";
 
             optionsBuilder.UseSqlServer(connectionString, options => options.EnableRetryOnFailure());
             // a partir de .net core 3.0 se elimino y ahora genera una excepcion directa

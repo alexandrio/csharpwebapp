@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UCS/V8w0GF2a0IOtnD3TNiIxDAHuvXFGbn15Zfbab0aMPDJnzmzQ33kzbiQWmeV7Osu2CDORE7UKSwcSL0Bd9A==",
+  "dgSpecHash": "fC20oRUojlX3qhVL2Wx7uf47Z2E0eT5nUVy+7jnGRuQ3b8/FtCqcHwFIuDrlA02Y+kTNlIdZsq0QYFJerIK0KA==",
   "success": true,
-  "projectFilePath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj",
+  "projectFilePath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj",
   "expectedPackageFiles": [
-    "/Users/pedrozalejandro/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
-    "/Users/pedrozalejandro/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/pedrozalejandro/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
-    "/Users/pedrozalejandro/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\alejandro\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\alejandro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\alejandro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\alejandro\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }

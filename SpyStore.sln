@@ -1,21 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.DAL", "SpySotre.DAL\SpyStore.DAL.csproj", "{D080C8C9-A9AC-46E9-995A-774A38826E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.DAL", "SpySotre.DAL\SpyStore.DAL.csproj", "{D080C8C9-A9AC-46E9-995A-774A38826E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Models", "SpyStore.Models\SpyStore.Models.csproj", "{7420C517-F870-4F75-ADF6-67CCE2CCCF66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Models", "SpyStore.Models\SpyStore.Models.csproj", "{7420C517-F870-4F75-ADF6-67CCE2CCCF66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Dal.Tests", "SpyStore.Dal.Tests\SpyStore.Dal.Tests.csproj", "{4E1F23B7-6CBB-4BE3-B45E-79834E32AC9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.DAL.Tests", "SpyStore.Dal.Tests\SpyStore.DAL.Tests.csproj", "{4E1F23B7-6CBB-4BE3-B45E-79834E32AC9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Service.Tests", "SpyStore.Service.Tests\SpyStore.Service.Tests.csproj", "{CE55AE4C-258B-40E6-9FFE-C05BC9E5C550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Service.Tests", "SpyStore.Service.Tests\SpyStore.Service.Tests.csproj", "{CE55AE4C-258B-40E6-9FFE-C05BC9E5C550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Service", "SpyStore.Service\SpyStore.Service.csproj", "{AD178729-93C5-442D-84D8-9A1D2BD86D7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Service", "SpyStore.Service\SpyStore.Service.csproj", "{AD178729-93C5-442D-84D8-9A1D2BD86D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.MVC", "SpyStore.MVC\SpyStore.MVC.csproj", "{1188653F-2952-4E53-94BA-106EB8E6883A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.MVC", "SpyStore.MVC\SpyStore.MVC.csproj", "{1188653F-2952-4E53-94BA-106EB8E6883A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.MVC.Tests", "SpyStore.MVC.Tests\SpyStore.MVC.Tests.csproj", "{513773D7-E6EF-48FE-9810-59F3A70A2D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.MVC.Tests", "SpyStore.MVC.Tests\SpyStore.MVC.Tests.csproj", "{513773D7-E6EF-48FE-9810-59F3A70A2D4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2558,6 +2558,22 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "SpySotre.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Newtonsoft.Json": "13.0.2",
+          "SpyStore.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SpySotre.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SpySotre.DAL.dll": {}
+        }
+      },
       "SpyStore.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -8122,6 +8138,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "SpySotre.DAL/1.0.0": {
+      "type": "project",
+      "path": "../SpySotre.DAL/SpyStore.DAL.csproj",
+      "msbuildProject": "../SpySotre.DAL/SpyStore.DAL.csproj"
+    },
     "SpyStore.Models/1.0.0": {
       "type": "project",
       "path": "../SpyStore.Models/SpyStore.Models.csproj",
@@ -8132,6 +8153,7 @@
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
+      "SpySotre.DAL >= 1.0.0",
       "SpyStore.Models >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
@@ -8139,37 +8161,43 @@
     ]
   },
   "packageFolders": {
-    "/Users/pedrozalejandro/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\alejandro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Dal.Tests/SpyStore.Dal.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Dal.Tests\\SpyStore.Dal.Tests.csproj",
       "projectName": "SpyStore.Dal.Tests",
-      "projectPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Dal.Tests/SpyStore.Dal.Tests.csproj",
-      "packagesPath": "/Users/pedrozalejandro/.nuget/packages/",
-      "outputPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Dal.Tests/obj/",
+      "projectPath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Dal.Tests\\SpyStore.Dal.Tests.csproj",
+      "packagesPath": "C:\\Users\\alejandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Dal.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "/Users/pedrozalejandro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj": {
-              "projectPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj"
+            "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpySotre.DAL\\SpyStore.DAL.csproj": {
+              "projectPath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpySotre.DAL\\SpyStore.DAL.csproj"
+            },
+            "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj": {
+              "projectPath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj"
             }
           }
         }
@@ -8225,7 +8253,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

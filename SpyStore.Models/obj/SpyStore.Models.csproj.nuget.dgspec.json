@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj": {}
+    "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj": {}
   },
   "projects": {
-    "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj": {
+    "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj",
+        "projectUniqueName": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj",
         "projectName": "SpyStore.Models",
-        "projectPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/SpyStore.Models.csproj",
-        "packagesPath": "/Users/pedrozalejandro/.nuget/packages/",
-        "outputPath": "/Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/",
+        "projectPath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\SpyStore.Models.csproj",
+        "packagesPath": "C:\\Users\\alejandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alejandro\\projects\\csharpwebapp\\SpyStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/pedrozalejandro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

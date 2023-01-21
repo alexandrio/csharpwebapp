@@ -6,17 +6,18 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SpyStore.Dal.Tests/1.0.0": {
+      "SpyStore.DAL.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
+          "SpySotre.DAL": "1.0.0",
           "SpyStore.Models": "1.0.0",
           "coverlet.collector": "3.1.2",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
-          "SpyStore.Dal.Tests.dll": {}
+          "SpyStore.DAL.Tests.dll": {}
         }
       },
       "AutoMapper/12.0.0": {
@@ -128,22 +129,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           }
         }
       },
@@ -1479,7 +1480,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -1526,6 +1527,17 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "SpySotre.DAL/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Newtonsoft.Json": "13.0.2",
+          "SpyStore.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpySotre.DAL.dll": {}
+        }
+      },
       "SpyStore.Models/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.0",
@@ -1539,7 +1551,7 @@
     }
   },
   "libraries": {
-    "SpyStore.Dal.Tests/1.0.0": {
+    "SpyStore.DAL.Tests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2509,6 +2521,11 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    },
+    "SpySotre.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SpyStore.Models/1.0.0": {
       "type": "project",

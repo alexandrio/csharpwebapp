@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SpySotre.DAL\SpyStore.DAL.csproj" />
     <ProjectReference Include="..\SpyStore.Models\SpyStore.Models.csproj" />
   </ItemGroup>
   <ItemGroup>

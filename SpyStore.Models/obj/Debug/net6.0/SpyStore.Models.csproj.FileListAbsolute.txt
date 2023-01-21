@@ -10,3 +10,15 @@
 /Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/refint/SpyStore.Models.dll
 /Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/SpyStore.Models.pdb
 /Users/pedrozalejandro/Projects/SpyStore/SpyStore/SpyStore.Models/obj/Debug/net6.0/ref/SpyStore.Models.dll
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\bin\Debug\net6.0\SpyStore.Models.deps.json
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\bin\Debug\net6.0\SpyStore.Models.dll
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\bin\Debug\net6.0\SpyStore.Models.pdb
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.csproj.AssemblyReference.cache
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.AssemblyInfoInputs.cache
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.AssemblyInfo.cs
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.dll
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\refint\SpyStore.Models.dll
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\SpyStore.Models.pdb
+C:\Users\alejandro\projects\csharpwebapp\SpyStore.Models\obj\Debug\net6.0\ref\SpyStore.Models.dll
