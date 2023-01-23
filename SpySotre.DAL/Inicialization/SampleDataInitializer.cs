@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using SpyStore.Dal.Initialization;
+using SpyStore.DAL.Initialization;
 using SpyStore.DAL.EfStructures;
 using SpyStore.Models.Entities;
 
@@ -74,6 +74,8 @@ namespace SpyStore.DAL.Inicialization
 					context.Customers.AddRange(SampleData.GetAllCustomerRecords(
 						new List<Product> { prod1,prod2,prod3,prod4}
 						));
+
+					var total = context.Customers.Count();
 
 					context.SaveChanges();
 				}

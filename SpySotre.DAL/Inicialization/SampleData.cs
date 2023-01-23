@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using SpyStore.Models.Entities;
 using SpyStore.Models.Entities.Base;
 
-namespace SpyStore.Dal.Initialization
+namespace SpyStore.DAL.Initialization
 {
     public static class SampleData
     {

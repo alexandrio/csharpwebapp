@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Emit;
 using Microsoft.EntityFrameworkCore;
 using SpyStore.Models;
 using SpyStore.Models.Entities;
@@ -49,10 +50,16 @@ namespace SpyStore.DAL.EfStructures
 			{
 				entity.Property(e=> e.Orderdate).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 				entity.Property(e => e.ShipDate).HasColumnType("datetime").HasDefaultValueSql("getdate()");
-				entity.Property(e => e.OrderTotal).HasColumnType("money").HasComputedColumnSql("Store.GetOrderTotal([Id])");
-			});
+				entity.Property(e => e.OrderTotal).HasComputedColumnSql("Store.GetOrderTotal([Id])",false).HasColumnType("money").ValueGeneratedOnAddOrUpdate();
+                
 
-			modelBuilder.Entity<Order>().HasQueryFilter(x => x.CustomerId == CustomerId);
+
+
+				//entity.Property(e => e.OrderTotal).HasColumnType("money").HasComputedColumnSql("Store.GetOrderTotal([Id])").ValueGeneratedNever();
+			});
+            modelBuilder.Entity<Order>().ToTable(tbl => tbl.HasTrigger("Store.GetOrderTotal([Id])"));
+
+            modelBuilder.Entity<Order>().HasQueryFilter(x => x.CustomerId == CustomerId);
 
 
 			modelBuilder.Entity<OrderDetail>(entity => {
